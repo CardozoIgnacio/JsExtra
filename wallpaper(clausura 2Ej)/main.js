@@ -21,7 +21,8 @@ function cargaImg() {
     for (let i = 0; i < wallP.length; i++) {
         var img = document.createElement("img");
         img.src="./Wallpapers/"+wallP[i];
-        img.width="200"
+        img.width="800"
+        img.height="400"
         img.onmouseover=function () {
             //Se crea una CLAUSURA con img...
             h1.innerHTML="La direccion de la imagen es : "+img.src
